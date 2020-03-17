@@ -1,0 +1,23 @@
+List<tech_learners> stack1= <tech_learners>[];
+List<mentors> stack2 = <mentors>[];
+void main() {
+  
+}
+class tech_learners {
+  tech_learners({this.interest, });
+  final interest;
+  addStacks() {
+    stack1.add(tech_learners(interest: interest));
+    
+  }
+}
+
+class mentors
+{
+  mentors(this.expertise);
+  int availabl_time;
+  final expertise;
+  addStacks() {
+    stack2.add(mentors(expertise));
+  }
+}
